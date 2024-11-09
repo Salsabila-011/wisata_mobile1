@@ -1,3 +1,4 @@
+import 'package:aslab_travel/latihanmodul/pertemuan5.dart';
 import 'package:aslab_travel/screens/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: Pertemuan5(),
     );
   }
 }
